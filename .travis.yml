@@ -3,4 +3,4 @@ python:
     - "3.7.3"
 install: pip install -r requirements.txt
 script:
-    - py manage.py migrate
+    - python manage.py migrate
