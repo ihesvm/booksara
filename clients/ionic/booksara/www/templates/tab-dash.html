@@ -1,0 +1,20 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>لیست کتاب های خریداری شده .</h2>
+      <div class="row header">
+          <div class="col"></div>
+          <div class="col">دفعات</div>
+          <div class="col">جمع</div>
+      </div>
+      <div class="row header">
+          <div class="col">فروخته شده</div>
+          <div class="col">{{book.sold.price__count}}</div>
+          <div class="col">{{book.sold.price__sum}}</div>
+      </div>
+      <div class="row header">
+          <div class="col">خریداری شده</div>
+          <div class="col">{{book.sold.price__count}}</div>
+          <div class="col">{{book.sold.price__sum}}</div>
+      </div>
+  </ion-content>
+</ion-view>

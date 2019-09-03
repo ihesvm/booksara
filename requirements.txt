@@ -1,0 +1,7 @@
+gunicorn
+dj-database-url
+whitenoise
+psycopg2
+Django==2.2
+django-cors-headers
+django-heroku
