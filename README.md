@@ -1,7 +1,7 @@
 # booksara
 
 
-_**Online django bookshop ecommerce with mobile application **_
+_**Online django bookshop ecommerce with mobile application**_
 
 ---
 ### how to run django project
